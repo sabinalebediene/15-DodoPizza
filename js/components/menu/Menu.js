@@ -1,6 +1,7 @@
 class Menu {
     constructor (params) {
-        console.log(params);
+        this.logo = params.logo;
+        this.menu = params.menu;
     }
 }
 

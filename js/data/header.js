@@ -1,13 +1,19 @@
 const headerData = {
+    selector: '#topHeader',
     logo : {
         menu: './img/Logo_menu.png',
     },
     countrySelection: 'Pasirinkite miestą',
-    countries: {
-        country1: 'Vilnius',
-        country2: 'Klaipėda',
-    },
-    title:' Nemokamas picų pristatymas',
+    activeCountry: 'Vilnius',
+    countryList: [
+        {
+        country: 'Vilnius',
+        },
+        {
+        country: 'Klaipėda',
+        },
+    ],
+    title: 'Nemokamas picų pristatymas',
     deliveryTime: '38 min',
     rating: '4.88',
     phoneNumber: '8 635 11 555',

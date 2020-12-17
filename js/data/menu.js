@@ -1,4 +1,5 @@
-const menuData = {
+const menuData =     {
+    selector: '#menu',
     logo : {
         menu: './img/Logo_menu.png',
     },
