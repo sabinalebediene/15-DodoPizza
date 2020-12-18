@@ -1,9 +1,10 @@
 const menuData =     {
     selector: '#menu',
+    logoPath: './img/',
     logo : {
-        menu: './img/Logo_menu.png',
+        logoMenu: 'Logo_menu.png',
+        logoalt:'Logo',
     },
-
     menu: [
         {
             text: 'Picos',

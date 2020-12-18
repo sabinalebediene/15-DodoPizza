@@ -1,0 +1,6 @@
+#topHeader {
+    display: inline-block;
+}
+    .headerTitle, .phoneNumber, .phoneTitle {
+        display: inline-block;
+    }

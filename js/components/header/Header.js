@@ -1,8 +1,9 @@
-import { Logo } from './Logo.js';
+import { HeaderLogo } from './HeaderLogo.js';
 
 class Header {
     constructor (params) {
         this.selector = params.selector;
+        this.logoPath = params.logoPath;
         this.logo = params.logo;
         this.countrySelection = params.countrySelection;
         this.activeCountry = params.activeCountry;
@@ -10,20 +11,27 @@ class Header {
         this.title = params.title;
         this.deliveryTime = params.deliveryTime;
         this.rating = params.rating;
+        this.phoneTitle = params.phoneTitle;
         this.phoneNumber = params.phoneNumber;
+        
+
+        this.logoObj = new HeaderLogo(params);
 
         this.render();
     }
-    // generuoju: Logo
-    // generuoju: countrySelection
 
     /**
      * Generuoja viso header elemento HTML.
      */
     generateHTML() {
-        const logo = new Logo();
-        const logoHTML = logo.generateHTML();
-        return logoHTML;
+        const logoHTML = this.logoObj.generateHTML();
+        return `${logoHTML}
+                <p class="headerTitle">${this.title}
+                    <a>${this.deliveryTime}</a>
+                    <a>${this.rating}</a>
+                    <p> class="country">${this.countryList}</p></p>
+                <p class="phoneTitle">${this.phoneTitle}</p>
+                    <a>${this.phoneNumber}</a>`;
     }
 
     /**

@@ -1,7 +1,9 @@
 const headerData = {
     selector: '#topHeader',
-    logo : {
-        menu: './img/Logo_menu.png',
+    logoPath: './img/',
+    logo: {
+        logoHeader: 'Logo_header.png',
+        logoalt:'Logo',
     },
     countrySelection: 'Pasirinkite miestą',
     activeCountry: 'Vilnius',
@@ -16,6 +18,7 @@ const headerData = {
     title: 'Nemokamas picų pristatymas',
     deliveryTime: '38 min',
     rating: '4.88',
+    phoneTitle: 'Skambinkite',
     phoneNumber: '8 635 11 555',
 
 
