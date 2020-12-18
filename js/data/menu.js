@@ -1,6 +1,6 @@
-const menuData =     {
+const menuData = {
     selector: '#menu',
-    logoPath: './img/',
+    logoPath: './img/Logo/',
     logo : {
         logoMenu: 'Logo_menu.png',
         logoalt:'Logo',

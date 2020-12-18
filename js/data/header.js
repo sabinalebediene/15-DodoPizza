@@ -1,6 +1,6 @@
 const headerData = {
     selector: '#topHeader',
-    logoPath: './img/',
+    logoPath: './img/Logo/',
     logo: {
         logoHeader: 'Logo_header.png',
         logoalt:'Logo',

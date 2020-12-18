@@ -26,10 +26,10 @@ class Header {
     generateHTML() {
         const logoHTML = this.logoObj.generateHTML();
         return `${logoHTML}
-                <p class="headerTitle">${this.title}
+                <p class ="headerTitle">${this.title}
                     <a>${this.deliveryTime}</a>
                     <a>${this.rating}</a>
-                    <p> class="country">${this.countryList}</p></p>
+                    <p> class="country">${this.activeCountry}</p></p>
                 <p class="phoneTitle">${this.phoneTitle}</p>
                     <a>${this.phoneNumber}</a>`;
     }
