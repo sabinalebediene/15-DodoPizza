@@ -1,56 +1,56 @@
 const introData = {
-    selector: 'introImg',
-    logoPath: './img/Intro/',
+    selector: '#introImg',
+    imgPath: './img/Intro/',
     singleImg: [
         {
-            imagealt:'first image',
             image: 'Pizza1.jpeg',
-            visible: true
-        },
-        {
-            imagealt:'second image',
-            image: 'Pizza2.jpe',
-            visible: true
-        },
-        {
-            imagealt:'third image',
-            image: 'Pizza3.jpe',
-            visible: true
-        },
-        {
-            imagealt:'fourth image',
-            image: 'Pizza4.jpe',
-            visible: true
-        },
-        {
-            imagealt:'fifth image',
-            image: 'Pizza5.jpe',
-            visible: true
-        },
-        {
             imagealt:'first image',
-            image: 'Pizza6.jpe',
-            visible: true
+            active: false
         },
         {
+            image: 'Pizza2.jpeg',
             imagealt:'second image',
-            image: 'Pizza7.jpe',
-            visible: true
+            active: true
         },
         {
+            image: 'Pizza3.jpeg',
             imagealt:'third image',
-            image: 'Pizza8.jpe',
-            visible: true
+            active: true
         },
         {
+            image: 'Pizza4.jpeg',
             imagealt:'fourth image',
-            image: 'Pizza9.jpe',
-            visible: true
+            active: true
         },
         {
+            image: 'Pizza5.jpeg',
+            imagealt:'fifth image',
+            active: true
+        },
+        {
+            image: 'Pizza6.jpeg',
+            imagealt:'first image',
+            active: true
+        },
+        {
+            image: 'Pizza7.jpeg',
+            imagealt:'second image',
+            active: true
+        },
+        {
+            image: 'Pizza8.jpeg',
+            imagealt:'third image',
+            active: true
+        },
+        {
+            image: 'Pizza9.jpeg',
             imagealt:'fourth image',
-            image: 'Pizza10.jpe',
-            visible: true
+            active: true
+        },
+        {
+            image: 'Pizza10.jpeg',
+            imagealt:'fourth image',
+            active: true
         },
     ],  
 }

@@ -2,7 +2,6 @@ class MenuLogo {
     constructor(params) {
         this.data = params.logo;
         this.logoPath = params.logoPath;
-        console.log(this.data);
     }
     /**
      * Generuoja Menu Logo elemento HTML.
