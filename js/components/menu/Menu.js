@@ -20,7 +20,8 @@ class Menu {
     generateHTML() {
         const navHTML = this.navObj.generateHTML();
         const logoHTML = this.logoObj.generateHTML();
-        return `${logoHTML} ${navHTML}`;
+        return `${logoHTML} 
+                <nav class="menuNav">${navHTML}</nav>`;
     }
 
     /**

@@ -1,6 +1,7 @@
 const introData = {
     selector: '#introImg',
     imgPath: './img/Intro/',
+    itemPerView: 1,
     singleImg: [
         {
             image: 'Pizza1.jpeg',

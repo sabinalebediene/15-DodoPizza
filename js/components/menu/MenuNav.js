@@ -7,12 +7,12 @@ class MenuNav {
      * Generuoja menu navigacijos elemento HTML.
      */
     generateHTML() {
+
         let HTML = '';
         for (let item of this.menu) {
-        HTML += `<nav class="menuNav">
-                    <a href="#">${item.text}</a> 
-                </nav>`;
-            }
+        HTML += `<a class="singleNav" href="#">${item.text}</a>`;
+
+    }
         return HTML;
     }
 

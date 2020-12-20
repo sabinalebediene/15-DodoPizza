@@ -8,6 +8,8 @@ import { Menu } from './components/menu/Menu.js';
 import { introData } from './data/intro.js';
 import { Intro } from './components/intro/Intro.js';
 // content import
+import { contentData } from './data/content.js';
+import { Content } from './components/content/Content.js';
 // Delivery and payment import
 // footer import
 // terms and condition import
@@ -20,6 +22,7 @@ new Menu(menuData);
 // intro logic
 new Intro(introData);
 // content logic
+new Content(contentData);
 // Delivery and payment logic
 // footer logic
 // terms and condition logic

@@ -29,9 +29,10 @@ class Header {
                 <p class ="headerTitle">${this.title}
                     <a>${this.deliveryTime}</a>
                     <a>${this.rating}</a>
-                    <p> class="country">${this.activeCountry}</p></p>
-                <p class="phoneTitle">${this.phoneTitle}</p>
-                    <a>${this.phoneNumber}</a>`;
+                    <a> class="country">${this.activeCountry}</a>
+                    <a>${this.phoneNumber}</a>
+                    <a> class="phoneTitle">${this.phoneTitle}</a>
+                </p>`;
     }
 
     /**

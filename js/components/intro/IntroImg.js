@@ -9,10 +9,17 @@ class IntroImg {
      * Generuoja intro singleImg elementus HTML.
      */
     generateHTML() {
-    
+        
+
+        
         let HTML = '';
         for (let item of this.data) {
-             HTML += `<img class="img" src="${this.imgPath + item.image}" alt="${item.imagealt}">`;
+
+             HTML += `<div class="singleImg ">
+                        <div class="spacing">
+                            <img class="img" src="${this.imgPath + item.image}" alt="${item.imagealt}">
+                        </div>
+                    </div>`;
         }
         return HTML;
     }
