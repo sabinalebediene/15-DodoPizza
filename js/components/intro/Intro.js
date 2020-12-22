@@ -40,7 +40,29 @@ class Intro {
                 </div>`;
     }
 
+    /**
+     * Selector validacija ir DOM vietos radimas
+     */
+    isValidSelector() {
+        const DOM = document.querySelector(this.selector);
+
+        if (DOM) {
+            this.DOM = DOM;
+            return true;
+        }
+
+        return false;
+    }
     
+    /**
+     * Header HTML istatyti i DOM
+     */
+    render() {
+        
+        if (!this.isValidSelector()) {
+            return false;
+        }
+        this.DOM.innerHTML = this.generateHTML();
     }  
 
     dotClick() {

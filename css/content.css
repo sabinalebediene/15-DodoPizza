@@ -1,3 +1,29 @@
 .contentForm {
     display: flex;
+    justify-content: space-between;
+
 }
+    .listImgPizza {
+        width: 336px;
+        
+        
+
+    }
+        .imgPizza {
+
+        }
+            .listImgP {
+                display: inline-block;
+                /* width: 100%; */
+                
+            }
+                .imgPizza {
+                    /* object-fit: cover; */
+                }
+
+
+
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        line-height: 60px;
