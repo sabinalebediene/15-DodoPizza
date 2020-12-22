@@ -1,33 +1,29 @@
-#content {
-    /* background-color: red; */
-    min-width: 1300px;
+#pizza {
     display: flex;
-    flex-direction: row;
-    gap: 33px;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
+    width: 1300px;
+    gap: 32px;
+    flex-flow: row wrap;
+    margin-top: 50px;
 }
-.listImgP {
-    
-
-    
-    
-
-}
-    .listImgPizza {
-
-        
-        
-
+    .title {
+        display: flex;
+        width: 100%;
     }
-        .imgPizza {
-
+    .imgPizza {
+        width: 301px;
+    }
+        .pizzaSubtitle {
+            width: 301px;
         }
-            .listImgP {
-                
+            .priceLeft .priceRigth {
+                display: inline-block;
+                width: 301;
             }
-                .imgPizza {
-                    width: 300px;
-                }
+            .priceLeft {
+                float: left;
+            }
+            .priceRigth {
+                float: right;
+            }
 
 

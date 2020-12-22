@@ -1,12 +1,13 @@
-import { ContentForm } from './ContentForm.js'
+import { ContentPizza } from './ContentPizza.js'
 
 class Content {
     constructor(params){
         this.selector = params.selector;
         this.imgPath = params.imgPath;
         this.singleImg = params.singleImg;
+        this.title = params.title;
 
-        this.contentFormObj = new ContentForm(params);
+        this.contentPizzaObj = new ContentPizza(params);
 
         this.render();
         
@@ -16,9 +17,10 @@ class Content {
      * Generuoja content elemento HTML.
      */
     generateHTML() { 
-        const contentFormHTML = this.contentFormObj.generateHTML();
+        const contentPizzaHTML = this.contentPizzaObj.generateHTML();
 
-        return `${contentFormHTML}`
+        return `<h1 class="title">${this.title}</h1>
+                ${contentPizzaHTML}`;
     }
 
     /**
