@@ -66,6 +66,30 @@ const contentData = {
             price: 'nuo 8,75 €',
             active: true
         },
+        {
+            image: 'Pica8.jpg',
+            imagealt:'9 image',
+            title: '4 seasons',
+            subtitle: 'Pievagrybiai, pomidorai, mocarelos sūris, kumpis, saliamis, picų padažas, fetos sūris, itališkos žolelės',
+            price: 'nuo 8,75 €',
+            active: true
+        },
+        {
+            image: 'Pica9.jpeg',
+            imagealt:'10 image',
+            title: 'Dodo',
+            subtitle: 'Pievagrybiai, pomidorai, mocarelos sūris, kumpis, saliamis, žalioji paprika, picų padažas',
+            price: 'nuo 8,75 €',
+            active: true
+        },
+        {
+            image: 'Pica10.jpeg',
+            imagealt:'11 image',
+            title: 'Chicken BBQ',
+            subtitle: 'Mocarelos sūris, šoninė, vištiena, raudonieji svogūnai, picų padažas, bbq padažas',
+            price: 'nuo 8,75 €',
+            active: true
+        },
     ],
 }
 

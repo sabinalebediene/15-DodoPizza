@@ -13,9 +13,7 @@ class ContentForm {
         let HTML = '';
         for (let item of this.singleImg) {
             HTML += `<div class="listImgP">
-                        <div class="listImgPizza">
                             <img class = "imgPizza" src="${this.imgPath + item.image}" alt="${item.imagealt}">
-                            </div> 
                         </div>`;
     
         }

@@ -18,9 +18,7 @@ class Content {
     generateHTML() { 
         const contentFormHTML = this.contentFormObj.generateHTML();
 
-        return `<div class="contentForm">
-                        ${contentFormHTML}         
-                </div>`
+        return `${contentFormHTML}`
     }
 
     /**

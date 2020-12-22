@@ -22,7 +22,6 @@
             }
             .carousel > .content > .listImg > .singleImg > .spacing {
                 display: inline-block;
-                width: 100%;
                 float: left;
             }
                 .carousel > .content > .listImg > .singleImg > .spacing > * {

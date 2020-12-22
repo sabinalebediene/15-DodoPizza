@@ -20,8 +20,6 @@ const headerData = {
     rating: '4.88',
     phoneTitle: 'Skambinkite',
     phoneNumber: '8 635 11 555',
-
-
 }
 
 export { headerData }
