@@ -1,10 +1,26 @@
-.menuNav {
-    display: inline-block;    
+#menu {
+    margin-top: 10px;
 }
-.logoMenu {
-    display: none;
-}
-    .singleNav {
-        padding-top: 100px;
-        text-decoration: none;
+    .menuNav {
+        display: inline-block; 
+        float: left;
+        margin-top: 10px;
+       
     }
+    .logoMenu {
+        display: none;
+    }
+        .singleNav {
+            text-decoration: none;
+            padding-right: 20px;
+            font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: black;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1;
+            cursor: pointer;
+        }
+        .singleNav:hover {
+            color: rgb(255, 105, 0);
+            transition: color 0.25s ease 0s, padding 0.25s ease 0s;
+        }

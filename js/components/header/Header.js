@@ -32,7 +32,8 @@ class Header {
                     <a> class="country">${this.activeCountry}</a>
                     <a>${this.phoneNumber}</a>
                     <a> class="phoneTitle">${this.phoneTitle}</a>
-                </p>`;
+                </p>
+                <button class="headerBtn">Prisijungti</button>`;
     }
 
     /**

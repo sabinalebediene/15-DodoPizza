@@ -19,7 +19,9 @@ class ContentSnaks {
                         </div>
                         <div class="row">
                             <div class="priceLeft">${item.price}</div>
-                            <div class="priceRigth">Pasirinkti</div>
+                            <div class="priceRigth">
+                                <button class="contentBtn">Pasirinkti</button>
+                        </div>
                         </div>
                     </div>`;
     

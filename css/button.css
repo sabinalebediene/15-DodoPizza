@@ -1,0 +1,39 @@
+.menuBtn {
+    display: inline-block;
+    float: right;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 105, 0);
+}
+.headerBtn {
+    display: inline-block;
+    float: right;
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1;
+    background-color: rgb(243, 243, 247);
+    color: rgb(92, 99, 112);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.contentBtn {
+    display: flex;
+    float: right;
+    background-color: rgb(255, 240, 230);
+    color: rgb(209, 87, 0);
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}

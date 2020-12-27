@@ -80,9 +80,7 @@ class Intro {
                 const index = dot.dataset.index;
                 this.activeItem = index;
                 dots[this.activeItem].classList.add('active');
-                this.listImgDOM.style.marginLeft = this.activeItem * -100 / this.itemPerView + '%';
-                
-                
+                this.listImgDOM.style.marginLeft = this.activeItem * -100 / this.itemPerView + '%';    
             })
         }
     }

@@ -1,6 +1,8 @@
 #topHeader {
     display: inline-block;
+    margin-top: 20px;
 }
     .headerTitle, .phoneNumber, .phoneTitle {
         display: inline-block;
+        margin-top: 20px;
     }
