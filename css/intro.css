@@ -11,10 +11,8 @@
 }
         .carousel > .content > .listImg {
             display: inline-block;
-            /* flex-direction: column;
-            flex-grow: 4;
-            width: 205px;
-            transition: border 0.5s, transform 0.5s;*/
+            transition: all 1s;
+
         }
             .carousel > .content > .listImg > .singleImg {
                 display: inline-block;

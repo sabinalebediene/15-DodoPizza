@@ -6,6 +6,7 @@ class Intro {
         this.imgPath = params.imgPath;
         this.singleImg = params.singleImg;
         this.itemPerView = params.itemPerView;
+        this.activeItem = 0;
 
         this.singleImgObj = new IntroImg(params);
 ;
@@ -21,9 +22,14 @@ class Intro {
         const singleImgHTML = this.singleImgObj.generateHTML();
 
         const total = this.singleImg.length;
-        const dotsCount = total - this.itemPerView;
-        let dotsHTML = '<div class="dot active"></div>';
-        dotsHTML += '<div class="dot"></div>'.repeat(dotsCount);
+        let dotsCount = total - this.itemPerView;
+        dotsCount = dotsCount > 0 ? dotsCount : 0;
+
+        let dotsHTML = '<div class="dot active" data-index="0"></div>';
+        for (let i=1; i <=dotsCount; i++) {
+            dotsHTML += `<div class="dot" data-index="${i}"></div>`;
+        }
+        
         const listWidth = 100 * total / this.itemPerView;
         const singleImgWidth = 100 / this.singleImg.length;
         
@@ -63,16 +69,27 @@ class Intro {
             return false;
         }
         this.DOM.innerHTML = this.generateHTML();
+        this.listImgDOM = this.DOM.querySelector('.content > .listImg');
     }  
 
     dotClick() {
-        
+        const dots = document.querySelectorAll('.dot');
+        for (let dot of dots) {
+            dot.addEventListener('click', () => {
+                dots[this.activeItem].classList.remove('active');
+                const index = dot.dataset.index;
+                this.activeItem = index;
+                dots[this.activeItem].classList.add('active');
+                this.listImgDOM.style.marginLeft = this.activeItem * -100 / this.itemPerView + '%';
+                
+                
+            })
+        }
     }
 
     addEvents() {
-        // paspaudus taskiukus turi judeti/slinktis turinys
+        this.dotClick();
 
-        addEventListener()
     }
 }
 
