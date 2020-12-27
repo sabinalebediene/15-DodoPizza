@@ -43,23 +43,20 @@
                 border-radius: 20px;
             }
 
-        /* .img:hover {
-            display: inline-block;
-            width: 100%;
-            border-radius: 20px;
-            margin-top: 20px;
-    
-        } */
         .carousel> .action {
             text-align: center;
             position: absolute;
-            /* display: inline-block;
-            width: 100%; */
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            cursor: pointer;
+            visibility: hidden;
         }
         .carousel > .action > .dot  {
             display: inline-block;
-            width: 10px;
-            height: 10px;
+            width: 15px;
+            height: 15px;
             margin: 5px;
             border-radius: 50%;
             background-color: #555555;
@@ -68,14 +65,18 @@
             .carousel > .action > .dot:hover  {
                 cursor: pointer;
                 background-color: red;
-                width: 14px;
-                height: 14px;
+                width: 19px;
+                height: 19px;
                 margin: 3px;
             }
             .carousel > .action > .dot.active  {
                 cursor: pointer;
                 background-color: red;
-                width: 14px;
-                height: 14px;
+                width: 19px;
+                height: 19px;
                 margin: 3px;
+            }
+
+            #introImg:hover .action {
+                visibility: visible;
             }
