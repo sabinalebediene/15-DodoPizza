@@ -1,8 +1,7 @@
-class ContentPizza {
-    constructor(pizza) {
-        this.imgPathP = pizza.imgPathP;
-        this.singleImgP = pizza.singleImgP;
-
+class ContentSnaks { 
+    constructor(snaks) {
+        this.imgPathS = snaks.imgPathS;
+        this.singleImgS = snaks.singleImgS;
     }
 
     /**
@@ -10,12 +9,13 @@ class ContentPizza {
      */
     generateHTML() { 
         let HTML = '';
-        for (let item of this.singleImgP) {
+        for (let item of this.singleImgS) {
+            
             HTML += `<div class="listItem">
-                        <div class="listImgPizza">
-                            <img class = "imgPizza" src="${this.imgPathP + item.image}" alt="${item.imagealt}">
+                        <div class="listImgSnaks">
+                            <img class = "imgSnaks" src="${this.imgPathS + item.image}" alt="${item.imagealt}">
                             <h2>${item.title}</h2>
-                            <p class="pizzaSubtitle">${item.subtitle}</p>
+                            <p class="snaksSubtitle">${item.subtitle}</p>
                         </div>
                         <div class="row">
                             <div class="priceLeft">${item.price}</div>
@@ -29,4 +29,4 @@ class ContentPizza {
     }
 }
 
-export { ContentPizza };
+export { ContentSnaks };

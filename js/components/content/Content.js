@@ -1,13 +1,19 @@
-import { ContentPizza } from './ContentPizza.js'
+import { ContentPizza } from './ContentPizza.js';
+import { ContentSnaks } from './ContentSnaks.js'
 
 class Content {
-    constructor(params){
-        this.selector = params.selector;
-        this.imgPath = params.imgPath;
-        this.singleImg = params.singleImg;
-        this.title = params.title;
+    constructor(pizza, snaks){
+        this.selector = pizza.selector;
+        this.imgPathP = pizza.imgPathP;
+        this.singleImgP = pizza.singleImgP;
+        this.titleP = pizza.titleP;
+        this.selector = snaks.selector;
+        this.imgPathS = snaks.imgPathS;
+        this.singleImgS = snaks.singleImgS;
+        this.titleS = snaks.titleS;
 
-        this.contentPizzaObj = new ContentPizza(params);
+        this.contentPizzaObj = new ContentPizza(pizza);
+        this.contentSnaksObj = new ContentSnaks(snaks);
 
         this.render();
         
@@ -18,9 +24,12 @@ class Content {
      */
     generateHTML() { 
         const contentPizzaHTML = this.contentPizzaObj.generateHTML();
+        const contentSnaksHTML = this.contentSnaksObj.generateHTML();
 
-        return `<h1 class="title">${this.title}</h1>
-                ${contentPizzaHTML}`;
+        return `<h1 class="title">${this.titleP}</h1>
+                ${contentPizzaHTML}
+                <h1 class="title">${this.titleS}</h1>
+                ${contentSnaksHTML}`;
     }
 
     /**

@@ -1,8 +1,8 @@
 const pizzaData = {
     selector: '#pizza',
-    imgPath: './img/Picos/',
-    title: 'Picos',
-    singleImg: [
+    imgPathP: './img/Picos/',
+    titleP: 'Picos',
+    singleImgP: [
         {
             image: 'Pica1.jpg',
             imagealt:'first image',
