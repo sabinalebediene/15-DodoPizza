@@ -1,11 +1,25 @@
-#menu {
+.menu {
     margin-top: 10px;
+    position: sticky;
+    top: 0;
+    
 }
+/* .sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  } */
+/* .menuContainer {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+} */
     .menuNav {
-        display: inline-block; 
-        float: left;
+        display: inline-block;
         margin-top: 10px;
-       
+        
     }
     .logoMenu {
         display: none;

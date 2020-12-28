@@ -10,6 +10,8 @@ import { Intro } from './components/intro/Intro.js';
 // content import
 import { pizzaData } from './data/pizza.js';
 import { snacksData } from './data/snacks.js';
+import { dessertsData } from './data/desserts.js';
+import { drinksData } from './data/drinks.js';
 import { Content } from './components/content/Content.js';
 // Delivery and payment import
 // footer import
@@ -23,7 +25,7 @@ new Menu(menuData);
 // intro logic
 new Intro(introData);
 // content logic
-new Content(pizzaData, snacksData);
+new Content(pizzaData, snacksData, dessertsData, drinksData);
 // Delivery and payment logic
 // footer logic
 // terms and condition logic

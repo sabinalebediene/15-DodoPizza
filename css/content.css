@@ -1,6 +1,5 @@
 #pizza {
     display: flex;
-    width: 1300px;
     gap: 32px;
     flex-flow: row wrap;
     margin-top: 50px;
@@ -9,13 +8,13 @@
         display: flex;
         width: 100%;
     }
-    .listImgSnaks {
+    .listImgSnaks, .listImgDessert {
         width: 301px;
     }
-        .imgPizza, .imgSnaks {
+        .imgPizza, .imgSnaks, .imgDessert {
             width: 301px;
         }
-        .pizzaSubtitle, .snaksSubtitle {
+        .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle {
             width: 301px;
         }
             .priceLeft .priceRigth {
@@ -33,13 +32,13 @@
     #pizza {
         width: 1100px;
     }
-    .imgPizza, .imgSnaks {
+    .imgPizza, .imgSnaks, .imgDessert {
         width: 251px;
     }
-    .listImgSnaks {
+    .listImgSnaks, .listImgDessert {
         width: 251px;
     }
-    .pizzaSubtitle, .snaksSubtitle {
+    .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle  {
         width: 251px;
     }
     .priceLeft .priceRigth {
@@ -50,13 +49,13 @@
     #pizza {
         width: 900px;
     }
-    .imgPizza, .imgSnaks {
+    .imgPizza, .imgSnaks, .imgDessert {
         width: 201px;
     }
-    .listImgSnaks {
+    .listImgSnaks, .listImgDessert {
         width: 201px;
     }
-    .pizzaSubtitle, .snaksSubtitle {
+    .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle  {
         width: 201px;
     }
     .priceLeft .priceRigth {
@@ -67,13 +66,13 @@
     #pizza {
         width: 700px;
     }
-    .imgPizza, .imgSnaks {
+    .imgPizza, .imgSnaks, .imgDessert {
         width: 334px;
     }
-    .listImgSnaks {
+    .listImgSnaks, .listImgDessert {
         width: 334px;
     }
-    .pizzaSubtitle, .snaksSubtitle {
+    .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle  {
         width: 334px;
     }
     .priceLeft .priceRigth {
@@ -84,13 +83,14 @@
     #pizza {
         width: 400px;
     }
-    .imgPizza, .imgSnaks {
+    .imgPizza, .imgSnaks, .imgDessert {
+        float: left;
         width: 400px;
     }
-    .listImgSnaks {
+    .listImgSnaks, .listImgDessert {
         width: 400px;
     }
-    .pizzaSubtitle, .snaksSubtitle {
+    .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle {
         width: 334px;
     }
     .priceLeft .priceRigth {

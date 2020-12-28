@@ -13,6 +13,7 @@ class Intro {
 
         this.render();
         this.dotClick();
+        this.addEvents();
     }
 
     /**

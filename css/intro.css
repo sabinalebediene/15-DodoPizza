@@ -1,9 +1,10 @@
 .carousel {
     display: inline-block;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     width: 100%;
 }
+
     .carousel > .content {
         display: inline-block;
         position: relative;
@@ -17,9 +18,8 @@
             .carousel > .content > .listImg > .singleImg {
                 display: inline-block;
                 width: calc(100% / 10);
-                float: left;
+                float: right;
                 margin-top: 30px;
-
             }
             .carousel > .content > .listImg > .singleImg > .spacing {
                 display: inline-block;

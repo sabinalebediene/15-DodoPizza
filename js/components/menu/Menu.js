@@ -12,6 +12,8 @@ class Menu {
         this.logoObj = new MenuLogo(params);
 
         this.render();
+        // this.onScroll();
+        this.addEvents();
     }
     
     /**
@@ -48,7 +50,24 @@ class Menu {
             return false;
         }
         this.DOM.innerHTML = this.generateHTML();
-    }  
+    }
+    
+    addEvents() {
+        const topVisibilityHeight = 200;
+        const topHeaderDOM = document.querySelector('.topHeader');
+        const menuDOM = document.querySelector('.menu');
+        console.log(topHeaderDOM);
+        addEventListener('scroll', () => {
+            if (scrollY > 20) {
+                console.log("kazkas vyksta");
+                topHeaderDOM.classList.add('remove');
+                menuDOM.classList.remove('show');
+            } else {
+                topHeaderDOM.classList.remove('remove');
+                menuDOM.classList.add('show');
+            }
+        })
+    }
 
 }
 
