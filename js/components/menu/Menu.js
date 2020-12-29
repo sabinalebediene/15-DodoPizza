@@ -55,16 +55,14 @@ class Menu {
     addEvents() {
         const topVisibilityHeight = 200;
         const topHeaderDOM = document.querySelector('.topHeader');
-        const menuDOM = document.querySelector('.menu');
-        console.log(topHeaderDOM);
+        const stickyDOM = document.querySelector('.sticky');
         addEventListener('scroll', () => {
-            if (scrollY > 20) {
-                console.log("kazkas vyksta");
+            if (scrollY > 2000) {
                 topHeaderDOM.classList.add('remove');
-                menuDOM.classList.remove('show');
+                stickyDOM.classList.remove('show');
             } else {
                 topHeaderDOM.classList.remove('remove');
-                menuDOM.classList.add('show');
+                stickyDOM.classList.add('show');
             }
         })
     }

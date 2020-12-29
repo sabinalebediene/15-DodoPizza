@@ -1,21 +1,24 @@
 .menu {
-    margin-top: 10px;
-    position: sticky;
-    top: 0;
-    
+    display: inline-block;
+    margin-top: 10px;    
 }
-/* .sticky {
-    position: sticky;
-    top: 0;
+
+.sticky.show::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
     width: 100%;
-  } */
-/* .menuContainer {
-    position: sticky;
-    top: 0;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
-} */
+    border-bottom: 1px solid rgb(230, 230, 230);
+    background-color: red;
+}
+
+
+.sticky.show::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
     .menuNav {
         display: inline-block;
         margin-top: 10px;

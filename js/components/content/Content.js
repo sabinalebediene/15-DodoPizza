@@ -2,9 +2,10 @@ import { ContentPizza } from './ContentPizza.js';
 import { ContentSnaks } from './ContentSnaks.js';
 import { ContentDesserts } from './ContentDesserts.js';
 import { ContentDrinks } from './ContentDrinks.js';
+import { ContentOtherGoods } from './ContentOtherGoods.js';
 
 class Content {
-    constructor(pizza, snaks, dessert, drinks){
+    constructor(pizza, snaks, dessert, drinks, otherGoods){
         this.selector = pizza.selector;
         this.imgPathP = pizza.imgPathP;
         this.singleImgP = pizza.singleImgP;
@@ -25,10 +26,16 @@ class Content {
         this.singleImgDr = drinks.singleImgDr;
         this.titleDr = drinks.titleDr;
 
+        this.selector = otherGoods.selector;
+        this.imgPathO = otherGoods.imgPathO;
+        this.singleImgO = otherGoods.singleImgO;
+        this.titleO = otherGoods.titleO;
+
         this.contentPizzaObj = new ContentPizza(pizza);
         this.contentSnaksObj = new ContentSnaks(snaks);
         this.contentDessertsObj = new ContentDesserts(dessert);
         this.contentDrinksObj = new ContentDrinks(drinks);
+        this.contentOtherGoodsObj = new ContentOtherGoods(otherGoods);
 
         this.render();
         
@@ -42,6 +49,7 @@ class Content {
         const contentSnaksHTML = this.contentSnaksObj.generateHTML();
         const contentDessertsHTML = this.contentDessertsObj.generateHTML();
         const contentDrinksHTML = this.contentDrinksObj.generateHTML();
+        const contentOtherGoodsHTML = this.contentOtherGoodsObj.generateHTML();
 
         return `<h1 class="title">${this.titleP}</h1>
                 ${contentPizzaHTML}
@@ -50,7 +58,9 @@ class Content {
                 <h1 class="title">${this.titleD}</h1>
                 ${contentDessertsHTML}
                 <h1 class="title">${this.titleDr}</h1>
-                ${contentDrinksHTML }`;
+                ${contentDrinksHTML}
+                <h1 class="title">${this.titleO}</h1>
+                ${contentOtherGoodsHTML}`;
     }
 
     /**

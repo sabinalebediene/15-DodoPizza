@@ -12,6 +12,7 @@ import { pizzaData } from './data/pizza.js';
 import { snacksData } from './data/snacks.js';
 import { dessertsData } from './data/desserts.js';
 import { drinksData } from './data/drinks.js';
+import { otherGoodsData } from './data/otherGoods.js';
 import { Content } from './components/content/Content.js';
 // Delivery and payment import
 // footer import
@@ -25,7 +26,7 @@ new Menu(menuData);
 // intro logic
 new Intro(introData);
 // content logic
-new Content(pizzaData, snacksData, dessertsData, drinksData);
+new Content(pizzaData, snacksData, dessertsData, drinksData, otherGoodsData);
 // Delivery and payment logic
 // footer logic
 // terms and condition logic

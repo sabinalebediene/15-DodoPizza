@@ -1,12 +1,21 @@
-#topHeader {
+.topHeader {
     display: inline-block;
     margin-top: 20px;
+    /* position: fixed;
+    top: 0; */
+    opacity: 1;
+    overflow: hidden;
+    transition: all 0.5s;
+    border-bottom: 1px solid #ccc;
+    
 }
     .headerTitle, .phoneNumber, .phoneTitle {
         display: inline-block;
         margin-top: 20px;
     }
 
-    .remove{
-       display: none;
+    .topHeader.remove {
+        opacity: 0;
+        height: 0;
+        padding: 0;
     }
