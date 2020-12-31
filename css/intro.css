@@ -90,9 +90,19 @@
     }
 }
 @media (max-width: 900px) {
-            
+    .carousel > .content > .listImg > .singleImg > .spacing > * {
+        max-width: 750px;
+    }    
 }
 @media (max-width: 700px) {
     .carousel > .content > .listImg > .singleImg {
         margin-top: 0px;
+    }
+    .carousel > .content > .listImg > .singleImg > .spacing > * {
+        max-width: 650px;
+    }
+    .carousel > .action > .dot  {
+        display: none;
+        
+    }
 }

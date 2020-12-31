@@ -83,12 +83,12 @@
 @media (max-width: 700px) {
     #pizza {
         display: flex;
-        /* width: 500px; */
+        width: 700px;
     }
     .imgPizza, .imgSnaks, .imgDessert, .imgDrinks, .imgOtherGoods  {
         display: inline-block;
         float: left;
-        width: 300px;
+        width: 100px;
     }
     .rowContent {
         display: inline-block;
@@ -96,8 +96,7 @@
         width: 400px;
     }
     .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle, .otherGoodsSubtitle, .drinksSubtitle {
-        text-align: center;
-        width: 650px;
+        width: 250px;
     }
     .priceLeft .priceRigth {
         width: 334px;
