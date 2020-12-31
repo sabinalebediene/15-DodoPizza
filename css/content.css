@@ -9,7 +9,7 @@
         display: flex;
         width: 100%;
     }
-    .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods {
+    .listImgPizza, .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods {
         width: 301px;
     }
         .imgPizza, .imgSnaks, .imgDessert, .imgDrinks, .imgOtherGoods {
@@ -36,7 +36,7 @@
     .imgPizza, .imgSnaks, .imgDessert, .imgDrinks, .imgOtherGoods  {
         width: 251px;
     }
-    .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods  {
+    .listImgPizza, .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods  {
         width: 251px;
     }
     .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle, .otherGoodsSubtitle, .drinksSubtitle   {
@@ -50,7 +50,7 @@
     #pizza {
         width: 900px;
     }
-    .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods   {
+    .listImgPizza, .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods   {
         width: 201px;
     }
     .imgPizza, .imgSnaks, .imgDessert, .imgDrinks, .imgOtherGoods {
@@ -70,7 +70,7 @@
     .imgPizza, .imgSnaks, .imgDessert, .imgDrinks, .imgOtherGoods  {
         width: 334px;
     }
-    .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods  {
+    .listImgPizza, .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods  {
         width: 334px;
     }
     .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle, .otherGoodsSubtitle, .drinksSubtitle   {
@@ -83,20 +83,24 @@
 @media (max-width: 700px) {
     #pizza {
         display: flex;
-        width: 700px;
+    }
+    .listImgPizza, .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods {
+        display: inline-block;
+        float: left;
+        width: 200px;
     }
     .imgPizza, .imgSnaks, .imgDessert, .imgDrinks, .imgOtherGoods  {
         display: inline-block;
         float: left;
-        width: 100px;
+        width: 200px;
     }
     .rowContent {
         display: inline-block;
         float: right;
-        width: 400px;
+        width: 200px;
     }
     .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle, .otherGoodsSubtitle, .drinksSubtitle {
-        width: 250px;
+        width: 150px;
     }
     .priceLeft .priceRigth {
         width: 334px;

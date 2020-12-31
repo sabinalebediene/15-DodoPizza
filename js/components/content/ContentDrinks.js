@@ -16,7 +16,7 @@ class ContentDrinks {
                             <img class = "imgDrinks" src="${this.imgPathDr + item.image}" alt="${item.imagealt}">
                         </div>
                         <div class="rowContent">
-                            <h2>${item.title}</h2>
+                            <h2 class="contentRowTitle">${item.title}</h2>
                             <p class="drinksSubtitle">${item.subtitle}</p>
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">

@@ -17,11 +17,11 @@ class ContentDesserts {
                             <img class = "imgDessert" src="${this.imgPathD + item.image}" alt="${item.imagealt}">
                         </div>
                         <div class="rowContent">
-                            <h2>${item.title}</h2>
+                            <h2 class="contentRowTitle">${item.title}</h2>
                             <p class="dessertSubtitle">${item.subtitle}</p>
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
-                                <button class="contentBtn">Pasirinkti</button>
+                            <button class="contentBtn">Pasirinkti</button>
                         </div>
                         </div>
                     </div>`;

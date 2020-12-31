@@ -16,14 +16,14 @@ class ContentPizza {
                             <img class = "imgPizza" src="${this.imgPathP + item.image}" alt="${item.imagealt}">
                         </div>
                         <div class="rowContent">
-                            <h2>${item.title}</h2>
+                            <h2 class="contentRowTitle">${item.title}</h2>
                             <p class="pizzaSubtitle">${item.subtitle}</p>
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
-                                <button class="contentBtn">Pasirinkti</button>
-                            </div>
+                            <button class="contentBtn">Pasirinkti</button>
                         </div>
-                    </div>`;
+                    </div>
+                </div>`;
     
         }
             return HTML;

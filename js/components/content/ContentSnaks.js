@@ -15,14 +15,12 @@ class ContentSnaks {
                         <div class="listImgSnaks">
                             <img class = "imgSnaks" src="${this.imgPathS + item.image}" alt="${item.imagealt}">
                         </div>
-                    <div class="rowContent">
-                        <div class="rowItem">
-                            <h2>${item.title}</h2>
+                        <div class="rowContent">
+                            <h2 class="contentRowTitle">${item.title}</h2>
                             <p class="snaksSubtitle">${item.subtitle}</p>
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
                             <button class="contentBtn">Pasirinkti</button>
-                        </div>
                         </div>
                         </div>
                     </div>`;
