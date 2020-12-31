@@ -51,15 +51,15 @@ class Content {
         const contentDrinksHTML = this.contentDrinksObj.generateHTML();
         const contentOtherGoodsHTML = this.contentOtherGoodsObj.generateHTML();
 
-        return `<h1 class="title">${this.titleP}</h1>
+        return `<h1 class="contentTitle">${this.titleP}</h1>
                 ${contentPizzaHTML}
-                <h1 class="title">${this.titleS}</h1>
+                <h1 class="contentTitle">${this.titleS}</h1>
                 ${contentSnaksHTML}
-                <h1 class="title">${this.titleD}</h1>
+                <h1 class="contentTitle">${this.titleD}</h1>
                 ${contentDessertsHTML}
-                <h1 class="title">${this.titleDr}</h1>
+                <h1 class="contentTitle">${this.titleDr}</h1>
                 ${contentDrinksHTML}
-                <h1 class="title">${this.titleO}</h1>
+                <h1 class="contentTitle">${this.titleO}</h1>
                 ${contentOtherGoodsHTML}`;
     }
 

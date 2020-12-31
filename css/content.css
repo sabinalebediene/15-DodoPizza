@@ -5,7 +5,7 @@
     flex-flow: row wrap;
     margin-top: 50px;
 }
-    .title {
+    .contentTitle {
         display: flex;
         width: 100%;
     }
@@ -84,6 +84,10 @@
     #pizza {
         display: flex;
     }
+    .contentTitle {
+        display: none;
+        width: 600px;
+    }
     .listImgPizza, .listImgSnaks, .listImgDrinks, .listImgDessert, .listImgOtherGoods {
         display: inline-block;
         float: left;
@@ -99,11 +103,14 @@
         float: right;
         width: 200px;
     }
+    .contentRowTitle {
+        font-size: 15px;
+    }
     .pizzaSubtitle, .snaksSubtitle, .dessertSubtitle, .otherGoodsSubtitle, .drinksSubtitle {
-        width: 150px;
+        width: 100px;
+        font-size: 14px;
     }
     .priceLeft .priceRigth {
-        width: 334px;
     } 
 }
 
