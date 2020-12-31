@@ -105,4 +105,7 @@
         display: none;
         
     }
+    .carousel > .content > .listImg {
+        display: inline-block;
+    }
 }
