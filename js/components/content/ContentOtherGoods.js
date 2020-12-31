@@ -14,10 +14,10 @@ class ContentOtherGoods {
             HTML += `<div class="listItem">
                         <div class="listImgOtherGoods">
                             <img class = "imgOtherGoods" src="${this.imgPathO + item.image}" alt="${item.imagealt}">
+                        </div>
+                        <div class="rowContent">
                             <h2>${item.title}</h2>
                             <p class="otherGoodsSubtitle">${item.subtitle}</p>
-                        </div>
-                        <div class="row">
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
                                 <button class="contentBtn">Pasirinkti</button>

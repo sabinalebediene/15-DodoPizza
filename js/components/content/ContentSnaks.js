@@ -14,13 +14,13 @@ class ContentSnaks {
             HTML += `<div class="listItem">
                         <div class="listImgSnaks">
                             <img class = "imgSnaks" src="${this.imgPathS + item.image}" alt="${item.imagealt}">
+                        </div>
+                        <div class="rowContent">
                             <h2>${item.title}</h2>
                             <p class="snaksSubtitle">${item.subtitle}</p>
-                        </div>
-                        <div class="row">
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
-                                <button class="contentBtn">Pasirinkti</button>
+                            <button class="contentBtn">Pasirinkti</button>
                         </div>
                         </div>
                     </div>`;

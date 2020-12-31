@@ -15,10 +15,10 @@ class ContentDesserts {
             HTML += `<div class="listItem">
                         <div class="listImgDessert">
                             <img class = "imgDessert" src="${this.imgPathD + item.image}" alt="${item.imagealt}">
+                        </div>
+                        <div class="rowContent">
                             <h2>${item.title}</h2>
                             <p class="dessertSubtitle">${item.subtitle}</p>
-                        </div>
-                        <div class="row">
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
                                 <button class="contentBtn">Pasirinkti</button>

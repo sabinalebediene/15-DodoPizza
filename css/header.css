@@ -19,3 +19,22 @@
         height: 0;
         padding: 0;
     }
+
+    @media (max-width: 1300px) {
+
+    }
+    @media (max-width: 1100px) {
+        .headerTitle, .phoneNumber, .phoneTitle {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 5px;
+        }
+    }
+    @media (max-width: 900px) {
+
+    }
+    @media (max-width: 700px) {
+        .headerLogo {
+            width: 200px;
+        }
+    }

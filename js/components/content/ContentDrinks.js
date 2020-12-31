@@ -12,15 +12,15 @@ class ContentDrinks {
         for (let item of this.singleImgDr) {
             
             HTML += `<div class="listItem">
-                        <div class="listImgSnaks">
-                            <img class = "imgSnaks" src="${this.imgPathDr + item.image}" alt="${item.imagealt}">
-                            <h2>${item.title}</h2>
-                            <p class="snaksSubtitle">${item.subtitle}</p>
+                        <div class="listImgDrinks">
+                            <img class = "imgDrinks" src="${this.imgPathDr + item.image}" alt="${item.imagealt}">
                         </div>
-                        <div class="row">
+                        <div class="rowContent">
+                            <h2>${item.title}</h2>
+                            <p class="drinksSubtitle">${item.subtitle}</p>
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
-                                <button class="contentBtn">Pasirinkti</button>
+                            <button class="contentBtn">Pasirinkti</button>
                         </div>
                         </div>
                     </div>`;

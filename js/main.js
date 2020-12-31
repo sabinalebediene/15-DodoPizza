@@ -15,6 +15,8 @@ import { drinksData } from './data/drinks.js';
 import { otherGoodsData } from './data/otherGoods.js';
 import { Content } from './components/content/Content.js';
 // Delivery and payment import
+import { delPayData } from './data/delPay.js';
+import { DelPay } from './components/delPay/DelPay.js';
 // footer import
 // terms and condition import
 
@@ -28,5 +30,6 @@ new Intro(introData);
 // content logic
 new Content(pizzaData, snacksData, dessertsData, drinksData, otherGoodsData);
 // Delivery and payment logic
+new DelPay(delPayData);
 // footer logic
 // terms and condition logic

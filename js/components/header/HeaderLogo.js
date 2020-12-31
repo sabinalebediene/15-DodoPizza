@@ -9,7 +9,7 @@ class HeaderLogo {
      */
     generateHTML() {
         let HTML = '';
-            HTML += `<img src="${this.logoPath + this.data.logoHeader}" alt="${this.data.logoalt}">`;
+            HTML += `<img class="headerLogo" src="${this.logoPath + this.data.logoHeader}" alt="${this.data.logoalt}">`;
         return HTML;
     }
 }

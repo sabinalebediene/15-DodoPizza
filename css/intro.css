@@ -1,6 +1,6 @@
 .carousel {
     display: inline-block;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
     width: 100%;
 }
@@ -79,3 +79,20 @@
             #introImg:hover .action {
                 visibility: visible;
             }
+@media (max-width: 1300px) {
+
+}
+@media (max-width: 1100px) {
+    .headerTitle, .phoneNumber, .phoneTitle {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 5px;
+    }
+}
+@media (max-width: 900px) {
+            
+}
+@media (max-width: 700px) {
+    .carousel > .content > .listImg > .singleImg {
+        margin-top: 0px;
+}

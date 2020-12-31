@@ -14,10 +14,10 @@ class ContentPizza {
             HTML += `<div class="listItem">
                         <div class="listImgPizza">
                             <img class = "imgPizza" src="${this.imgPathP + item.image}" alt="${item.imagealt}">
+                        </div>
+                        <div class="rowContent">
                             <h2>${item.title}</h2>
                             <p class="pizzaSubtitle">${item.subtitle}</p>
-                        </div>
-                        <div class="row">
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
                                 <button class="contentBtn">Pasirinkti</button>
