@@ -3,7 +3,7 @@
     margin-top: 10px;    
 }
 
-.sticky.show::before {
+/* .sticky.show::before {
     content: "";
     position: absolute;
     left: 0px;
@@ -18,7 +18,7 @@
     content: " ";
     display: block;
     clear: both;
-  }
+  } */
     .menuNav {
         display: inline-block;
         margin-top: 10px;

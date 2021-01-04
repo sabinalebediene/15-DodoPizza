@@ -8,11 +8,11 @@ import { Menu } from './components/menu/Menu.js';
 import { introData } from './data/intro.js';
 import { Intro } from './components/intro/Intro.js';
 // content import
-import { pizzaData } from './data/pizza.js';
-import { snacksData } from './data/snacks.js';
-import { dessertsData } from './data/desserts.js';
-import { drinksData } from './data/drinks.js';
-import { otherGoodsData } from './data/otherGoods.js';
+import { pizzaData } from './data/content/pizza.js';
+import { snacksData } from './data/content/snacks.js';
+import { dessertsData } from './data/content/desserts.js';
+import { drinksData } from './data/content/drinks.js';
+import { otherGoodsData } from './data/content/otherGoods.js';
 import { Content } from './components/content/Content.js';
 // Delivery and payment import
 import { delPayData } from './data/delPay.js';

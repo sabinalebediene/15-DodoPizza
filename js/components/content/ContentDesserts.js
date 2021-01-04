@@ -13,16 +13,16 @@ class ContentDesserts {
         for (let item of this.singleImgD) {
             
             HTML += `<div class="listItem">
-                        <div class="listImgDessert">
-                            <img class = "imgDessert" src="${this.imgPathD + item.image}" alt="${item.imagealt}">
+                        <div class="listContentImg">
+                            <img class = "contentSingleImg" src="${this.imgPathD + item.image}" alt="${item.imagealt}">
                         </div>
                         <div class="rowContent">
                             <h2 class="contentRowTitle">${item.title}</h2>
-                            <p class="dessertSubtitle">${item.subtitle}</p>
+                            <p class="contentRowSubtitle">${item.subtitle}</p>
                             <div class="priceLeft">${item.price}</div>
                             <div class="priceRigth">
-                            <button class="contentBtn">Pasirinkti</button>
-                        </div>
+                                <button class="contentBtn">Pasirinkti</button>
+                            </div>
                         </div>
                     </div>`;
     

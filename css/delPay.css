@@ -1,0 +1,57 @@
+.delPayHeader {
+    display: inline-block;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 32px 0px;
+    
+
+}
+    .delPayContainer {
+        display: flex;
+        gap: 40px;
+        
+    }
+     .delPayContent {
+        width: 410px;
+     }
+        .contentHeader {
+            margin: 0px 0px 5px;
+            font-weight: 500;
+            font-size: 18px;
+            color: rgb(255, 105, 0);
+            text-transform: uppercase;
+        }
+        .contentTitle {
+            margin: 0px 0px 20px;
+        }
+        .map {
+            width: 100%;
+        }
+        /* .deliveryZoneContent {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            z-index: 1;   
+        }
+            .deliveryZoneTitle{
+                margin-top: 10px;
+                margin-bottom: 0px;
+                color: rgb(0, 0, 0);
+                font-size: 20px;
+                line-height: 1.4;
+                font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                font-weight: 500;
+            } */
+
+@media (max-width: 1300px) {
+    .delPayContent {
+        width: 345px;
+     }
+
+}

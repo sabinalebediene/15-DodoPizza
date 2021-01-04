@@ -1,6 +1,6 @@
 const delPayData = {
     selector: '#delPayColumn',
-    hTitle: 'Pristatymas ir apmokėjimas',
+    htitle: 'Pristatymas ir apmokėjimas',
     title1: '60 MINUČIŲ ARBA KITA PICA NEMOKAMAI',
     title2: 'PRISTATYMO ZONA RIBOTA',
     subtitle1: 'Jei mes nespėsime pristatyti bet kokius produktus, išskyrus suvenyrus, per 60 minučių, kurjeris padovanos Jums Kuponą nemokamai picai.',

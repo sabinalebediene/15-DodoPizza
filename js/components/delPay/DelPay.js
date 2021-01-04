@@ -1,7 +1,7 @@
 class DelPay { 
     constructor(params){
         this.selector = params.selector;
-        this.hTitle = params.hTitle;
+        this.htitle = params.htitle;
         this.title1 = params.title1;
         this.title2 = params.title2;
         this.subtitle1 = params.subtitle1;
@@ -16,28 +16,35 @@ class DelPay {
         this.render();
 
     }
- /**
+    /**
      * Generuoja viso delPay elemento HTML.
      */
     generateHTML() {
 
         let HTML = '';
-            HTML +=`<div class="col-12">
-                        <h1>${this.hTitle}</h1>
+            HTML +=`<div class="delPayHeader">
+                        <h1>${this.htitle}</h1>
                     </div>
-                        <div class="col-4">
-                            <div>
-                                <h1>${this.title1}</h1>
-                                <p>${this.subtitle1}</p>
-                            </div>
-                            <div>
-                                <h1>${this.price1}</h1>
-                                <p>${this.subtitle2}</p>
-                                <h1>${this.price2}</h1>
-                                <p>${this.subtitle3}</p>
-                                <p>${this.subtitle4}</p>
-                            </div>
-                        </div>`;
+                    <div class="delPayContainer">
+                        <div class="delPayContent">
+                            <h1 class="contentHeader">${this.title1}</h1>
+                            <p class="contentTitle">${this.subtitle1}</p>
+                        </div>
+                        <div class="delPayContent">
+                            <h1 class="contentHeader">${this.price1}</h1>
+                            <p class="contentTitle">${this.subtitle2}</p>
+                            <h1 class="contentHeader">${this.price2}</h1>
+                            <p class="contentTitle">${this.subtitle3}</p>
+                            <p class="contentTitle">${this.subtitle4}</p>
+                        </div>
+                        <div class="delPayContent">
+                            <h1 class="contentHeader">PRISTATYMO ZONA RIBOTA</h1>
+                            <img class="map" src="../img/map.jpg" alt="map">
+                            <span class="deliveryZoneContent">
+                                <span class="deliveryZoneTitle">Pristatymo zona</span>
+                            </span>
+                        </div>
+                    </div>`;
         return HTML;
     }
 
